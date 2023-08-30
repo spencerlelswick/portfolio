@@ -18,7 +18,7 @@ const Projects = () => {
     return (
       <section className='bg-stone-700 min-h-screen flex flex-col items-center justify-center'>
         {projects.map((project, idx) => (
-          <div className='text-white' key={idx}>
+          <div data-aos='zoom-in-down' className='text-white' key={idx}>
             <h1>{project.name}</h1>
             <img src={project.image} alt={project.name} />
             <a href={project.git}>
