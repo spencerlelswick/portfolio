@@ -15,7 +15,7 @@ const About = () => {
   }, []);
 
   const loaded = () => (
-    <div>
+    <div className='container  mx-auto'>
       <h2>{about.name}</h2>
       <h3>{about.email}</h3>
       <p>{about.bio}</p>

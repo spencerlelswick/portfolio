@@ -16,11 +16,11 @@ const Projects = () => {
 
   const loaded = () => {
     return (
-      <section className='min-h-screen flex flex-col items-center justify-center'>
-        {projects.map((project) => (
-          <div>
+      <section className='bg-stone-700 min-h-screen flex flex-col items-center justify-center'>
+        {projects.map((project, idx) => (
+          <div className='text-white' key={idx}>
             <h1>{project.name}</h1>
-            <img src={project.image} />
+            <img src={project.image} alt={project.name} />
             <a href={project.git}>
               <button>Github</button>
             </a>

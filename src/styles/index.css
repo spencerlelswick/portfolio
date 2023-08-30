@@ -14,9 +14,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;  /* Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+canvas{
+  touch-action: none;
+}
+
+/* Hide Scroll */ 
+body::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
