@@ -1,10 +1,13 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import Landing from './Landing';
+import Projects from './Projects';
 const Home = () => {
   return (
-    <section className='page'>
-      <h1 id="">Spencer Elswick</h1>
-    </section>
+    <>
+      <Landing />
+      <Projects />
+    </>
   );
 };
 
