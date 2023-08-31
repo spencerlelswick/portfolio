@@ -9,6 +9,7 @@ const Home = () => {
       <Landing />
       <Projects />
       <About />
+      <Projects />
     </>
   );
 };

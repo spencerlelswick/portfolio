@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import ProjectItem from '../components/ProjectItem';
 
 const Projects = () => {
   const [projects, setProjects] = useState(null);
@@ -18,16 +19,7 @@ const Projects = () => {
     return (
       <section className='bg-stone-700 min-h-screen flex flex-col items-center justify-center'>
         {projects.map((project, idx) => (
-          <div className='text-white m-10' key={idx}>
-            <h1>{project.name}</h1>
-            <img src={project.image} alt={project.name} />
-            <a href={project.git}>
-              <button>Github</button>
-            </a>
-            <a href={project.live}>
-              <button>live site</button>
-            </a>
-          </div>
+          <ProjectItem project={project} idx={idx} />
         ))}
       </section>
     );
