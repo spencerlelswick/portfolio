@@ -43,14 +43,14 @@ const ProjectItem = ({ project, idx }) => {
   };
 
   return (
-    <div
-      key={idx}
-      className='card'
-      initial='offscreen'
-      whileinview='onscreen'
-      viewport={{ once: true, amount: 1 }}
-    >
-      <motion.div className='text-white m-10' key={idx}>
+    <div key={idx} className='flex gap-5'>
+      <motion.div
+        className='card text-white flex flex-col'
+        initial='offscreen'
+        whileinview='onscreen'
+        viewport={{ once: true, amount: 1 }}
+        key={idx}
+      >
         <h2>{project.name}</h2>
         <div className='svg-container'>
           <ProjectIcon

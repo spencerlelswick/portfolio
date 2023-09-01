@@ -17,7 +17,7 @@ const Projects = () => {
 
   const loaded = () => {
     return (
-      <section className='bg-stone-700 min-h-screen flex items-center justify-center'>
+      <section className='bg-stone-700 min-h-screen flex items-center justify-around'>
         {projects.map((project, idx) => (
           <ProjectItem project={project} idx={idx} />
         ))}
