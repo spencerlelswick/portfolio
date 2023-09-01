@@ -13,13 +13,19 @@ const Landing = () => {
       <div className='mt-10'>
         <ul className='flex flex-row gap-4 text-white text-4xl'>
           <li>
-            <FaGithubSquare className='hover:text-orange-300' />
+            <a href='https://github.com/spencerlelswick'>
+              <FaGithubSquare className='hover:text-orange-300' />
+            </a>
           </li>
           <li>
-            <TfiEmail className='hover:text-orange-300' />
+            <a href='mailto:spencerelswick@proton.me'>
+              <TfiEmail className='hover:text-orange-300' />
+            </a>
           </li>
           <li>
-            <FaLinkedin className='hover:text-orange-300' />
+            <a href='https://www.linkedin.com/in/spencerlelswick/'>
+              <FaLinkedin className='hover:text-orange-300' />
+            </a>
           </li>
         </ul>
       </div>

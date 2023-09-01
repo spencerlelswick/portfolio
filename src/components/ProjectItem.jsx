@@ -51,6 +51,7 @@ const ProjectItem = ({ project, idx }) => {
       viewport={{ once: true, amount: 1 }}
     >
       <motion.div className='text-white m-10' key={idx}>
+        <h2>{project.name}</h2>
         <div className='svg-container'>
           <ProjectIcon
             pathVariants={pathVariants}
@@ -58,13 +59,10 @@ const ProjectItem = ({ project, idx }) => {
             svgPath={svgPath}
           />
         </div>
-
-        <a href={project.git}>
-          <button>Github</button>
-        </a>
-        <a href={project.live}>
-          <button>live site</button>
-        </a>
+        <div className='flex justify-between'>
+          <a href={project.git}>GitHub</a>
+          <a href={project.live}>live demo</a>
+        </div>
       </motion.div>
     </div>
   );

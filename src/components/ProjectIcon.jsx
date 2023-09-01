@@ -9,17 +9,11 @@ const ProjectIcon = ({ svgVariants, pathVariants, svgPath }) => {
       variants={svgVariants}
       initial='hidden'
       animate='visible'
-      width='330px'
-      height='330px'
-      viewbox='0 0 10 10'
+      width='200px'
+      height='100px'
+      viewbox='0 0 100 100'
     >
-      <motion.path
-        transform='translate(1400,1280)'
-        id='scale'
-        variants={pathVariants}
-        fill='none'
-        d={svgPath}
-      />
+      <motion.path id='scale' variants={pathVariants} fill='none' d={svgPath} />
     </motion.svg>
   );
 };

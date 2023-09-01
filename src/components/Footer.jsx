@@ -5,7 +5,11 @@ const Footer = () => {
     <footer className='bg-slate-500 text-white'>
       <ul className='flex flex-row justify-center gap-4'>
         <li>About</li>
-        <li>Resume</li>
+        <li>
+          <a href='/resources/resume.pdf' target='_blank'>
+            Resume
+          </a>
+        </li>
         <li>Email</li>
       </ul>
     </footer>
