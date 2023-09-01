@@ -2,10 +2,14 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
-      <ul>
-        <li>Linkedin</li>
-        <li>Github</li>
+    <footer className='bg-slate-500 text-white'>
+      <ul className='flex flex-row justify-center gap-4'>
+        <li>About</li>
+        <li>
+          <a href='/resources/resume.pdf' target='_blank'>
+            Resume
+          </a>
+        </li>
         <li>Email</li>
       </ul>
     </footer>
