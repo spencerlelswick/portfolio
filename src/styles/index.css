@@ -47,10 +47,17 @@ code {
 }
 
 .project-svg {
-  width: 80px;
   overflow: visible;
   stroke: #fff;
-  stroke-width: 4;
+  stroke-width: 10;
   stroke-linejoin: round;
   stroke-linecap: round;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#scale {
+  scale: 0.1;
 }

@@ -47,11 +47,11 @@ const ProjectItem = ({ project, idx }) => {
       key={idx}
       className='card'
       initial='offscreen'
-      whileInView='onscreen'
+      whileinview='onscreen'
       viewport={{ once: true, amount: 1 }}
     >
-      <motion.div className='text-white m-10' variants={cardVariants} key={idx}>
-        <div>
+      <motion.div className='text-white m-10' key={idx}>
+        <div className='svg-container'>
           <ProjectIcon
             pathVariants={pathVariants}
             svgVariants={svgVariants}
