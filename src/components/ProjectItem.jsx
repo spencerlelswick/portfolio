@@ -1,69 +1,9 @@
 import React from 'react';
-import Bishop from '../assets/white-bishop.svg';
-import { motion } from 'framer-motion';
-import ProjectIcon from './ProjectIcon';
 
-const ProjectItem = ({ project, idx }) => {
-  const svgPath = project.svg;
-  const cardVariants = {
-    offscreen: {
-      scale: 0,
-    },
-    onscreen: {
-      scale: 1,
-      transition: {
-        type: 'spring',
-        damping: 30,
-        bounce: 0.2,
-        duration: 0.8,
-      },
-    },
-  };
-
-  const svgVariants = {
-    hidden: { rotate: -180 },
-    visible: {
-      rotate: 0,
-    },
-  };
-
-  const pathVariants = {
-    hidden: {
-      opacity: 0,
-      pathLength: 0,
-    },
-    visible: {
-      opacity: 1,
-      pathLength: 1,
-      transition: {
-        delay: 1,
-        duration: 5,
-      },
-    },
-  };
-
+const ProjectItem = () => {
   return (
-    <div key={idx} className='flex gap-5'>
-      <motion.div
-        className='card text-white flex flex-col'
-        initial='offscreen'
-        whileinview='onscreen'
-        viewport={{ once: true, amount: 1 }}
-        key={idx}
-      >
-        <h2>{project.name}</h2>
-        <div className='svg-container'>
-          <ProjectIcon
-            pathVariants={pathVariants}
-            svgVariants={svgVariants}
-            svgPath={svgPath}
-          />
-        </div>
-        <div className='flex justify-between'>
-          <a href={project.git}>GitHub</a>
-          <a href={project.live}>live demo</a>
-        </div>
-      </motion.div>
+    <div>
+      <p className=''>ProjectItem</p>
     </div>
   );
 };
