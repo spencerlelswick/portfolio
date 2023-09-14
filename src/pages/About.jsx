@@ -15,10 +15,12 @@ const About = () => {
   }, []);
 
   const loaded = () => (
-    <div className='container  mx-auto'>
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <p>{about.bio}</p>
+    <div className='flex justify-center'>
+      <div className='w-2/3 flex flex-col justify-center items-center'>
+        <h2>{about.name}</h2>
+        <h3>{about.email}</h3>
+        <p>{about.bio}</p>
+      </div>
     </div>
   );
 
