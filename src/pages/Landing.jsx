@@ -5,8 +5,14 @@ import { TfiEmail } from 'react-icons/tfi';
 
 const Landing = () => {
   return (
-    <section className='min-h-screen flex flex-col items-center justify-center'>
-      <h1 className='text-primary text-6xl'>spencer elswick</h1>
+    <section className='h-screen flex flex-col items-center justify-center'>
+      <img
+        src='https://avatars.githubusercontent.com/u/110030149?v=4'
+        alt='avatar'
+        className='rounded-3xl w-36 shadow-2xl'
+      />
+      <h1 className='text-primary text-6xl text-center'>spencer elswick</h1>
+      <h1 className='text-primary text-3xl text-center'>software engineer</h1>
       <div className='mt-10'>
         <ul className='flex flex-row gap-4 text-4xl'>
           <li>

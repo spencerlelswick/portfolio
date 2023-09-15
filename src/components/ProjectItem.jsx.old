@@ -45,7 +45,7 @@ const ProjectItem = ({ project, idx }) => {
   return (
     <div key={idx} className='card flex gap-5'>
       <motion.div
-        className='card  flex flex-col'
+        className='card flex flex-col'
         initial='offscreen'
         whileinview='onscreen'
         viewport={{ once: true, amount: 1 }}

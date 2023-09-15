@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <>
       <Landing />
-      <Projects />
       <About />
+      <Projects />
     </>
   );
 };

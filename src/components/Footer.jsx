@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className=''>
-      <ul className='flex flex-row justify-center gap-4'>
+    <footer className='footer p-5 flex flex-row justify-center items-center bg-neutral text-neutral-content'>
+      <ul className='flex flex-row justify-center items-center gap-4'>
         <li>About</li>
         <li>
           <a href='/resources/resume.pdf' target='_blank'>

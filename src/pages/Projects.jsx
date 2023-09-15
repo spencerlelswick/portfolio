@@ -17,10 +17,12 @@ const Projects = () => {
 
   const loaded = () => {
     return (
-      <section className='min-h-screen flex justify-center gap-5'>
-        {projects.map((project, idx) => (
-          <ProjectItem project={project} idx={idx} />
-        ))}
+      <section className='min-h-[80vh] my-10 flex justify-center'>
+        <div className='flex flex-row max-w-[90vw] gap-5 flex-wrap justify-center items-center'>
+          {projects.map((project, idx) => (
+            <ProjectItem project={project} idx={idx} key={idx} />
+          ))}
+        </div>
       </section>
     );
   };
