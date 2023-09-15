@@ -23,17 +23,17 @@ const About = () => {
           <p>
             For more information, check out my{' '}
             <a
-              href='https://github.com/spencerlelswick'
-              className='underline text-secondary'
-            >
-              GitHub
-            </a>
-            , or{' '}
-            <a
               href='http://localhost:3000/resources/resume.pdf'
               className='underline text-secondary'
             >
               resume
+            </a>
+            , or{' '}
+            <a
+              href='https://github.com/spencerlelswick'
+              className='underline text-secondary'
+            >
+              GitHub
             </a>
             .
           </p>
