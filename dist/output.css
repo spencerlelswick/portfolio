@@ -2218,6 +2218,11 @@ html {
   position: fixed;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -2302,6 +2307,14 @@ html {
   min-height: 50vh;
 }
 
+.min-h-\[vh80\] {
+  min-height: vh80;
+}
+
+.min-h-\[80vh\] {
+  min-height: 80vh;
+}
+
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -2330,8 +2343,32 @@ html {
   width: 30rem;
 }
 
+.w-\[50vw\] {
+  width: 50vw;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
+}
+
 .min-w-full {
   min-width: 100%;
+}
+
+.max-w-\[50vw\] {
+  max-width: 50vw;
+}
+
+.max-w-\[80vw\] {
+  max-width: 80vw;
+}
+
+.max-w-\[100vw\] {
+  max-width: 100vw;
+}
+
+.max-w-\[90vw\] {
+  max-width: 90vw;
 }
 
 .flex-row {
@@ -2390,6 +2427,23 @@ html {
   background-color: currentColor;
 }
 
+.bg-neutral {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--n) / var(--tw-bg-opacity));
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2417,6 +2471,11 @@ html {
 .text-base-100 {
   --tw-text-opacity: 1;
   color: hsl(var(--b1) / var(--tw-text-opacity));
+}
+
+.text-neutral-content {
+  --tw-text-opacity: 1;
+  color: hsl(var(--nc) / var(--tw-text-opacity));
 }
 
 .shadow-xl {

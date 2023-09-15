@@ -9,7 +9,7 @@
   },
   {
     "name": "Little Italy",
-    "desc": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    "desc": "Little Italy Pizza is a web application for a fictitious pizza shop. ",
     "live": "https://app.netlify.app/test",
     "git": "https://github.com/spencerlelswick/little-italy-pizza",
     "image": "https://raw.githubusercontent.com/spencerlelswick/little-italy-pizza/main/public/images/readme/3.gif",

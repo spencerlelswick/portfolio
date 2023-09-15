@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const ProjectItem = ({ project }) => {
   return (
-    <div className='card w-[30rem] shadow-xl'>
-      <figure className='max-h-60'>
-        <img src={project.image} className='h-100 w-100' alt='evently' />
+    <div className='card w-[20rem] shadow-xl'>
+      <figure className='max-h-40'>
+        <img src={project.image} className='h-100 w-100' alt={project.name} />
       </figure>
-      <div className='card-body h-48'>
+      <div className='card-body h-60'>
         <h2 className='card-title'>
           {project.name}
           {/* <div className='badge badge-secondary'>NEW</div> */}

@@ -17,8 +17,8 @@ const Projects = () => {
 
   const loaded = () => {
     return (
-      <section className='min-h-[50vh]'>
-        <div className='flex flex-row gap-5 flex-wrap justify-center items-center'>
+      <section className='min-h-[80vh] my-10 flex justify-center'>
+        <div className='flex flex-row max-w-[90vw] gap-5 flex-wrap justify-center items-center'>
           {projects.map((project, idx) => (
             <ProjectItem project={project} idx={idx} />
           ))}
