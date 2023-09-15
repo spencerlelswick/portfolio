@@ -1954,51 +1954,14 @@ html {
   color: hsl(var(--ac) / var(--tw-text-opacity));
 }
 
-.badge-outline {
-  border-color: currentColor;
-  --tw-border-opacity: 0.5;
-  background-color: transparent;
-  color: currentColor;
-}
-
-.badge-outline.badge-neutral {
-  --tw-text-opacity: 1;
-  color: hsl(var(--n) / var(--tw-text-opacity));
-}
-
 .badge-outline.badge-primary {
   --tw-text-opacity: 1;
   color: hsl(var(--p) / var(--tw-text-opacity));
 }
 
-.badge-outline.badge-secondary {
-  --tw-text-opacity: 1;
-  color: hsl(var(--s) / var(--tw-text-opacity));
-}
-
 .badge-outline.badge-accent {
   --tw-text-opacity: 1;
   color: hsl(var(--a) / var(--tw-text-opacity));
-}
-
-.badge-outline.badge-info {
-  --tw-text-opacity: 1;
-  color: hsl(var(--in) / var(--tw-text-opacity));
-}
-
-.badge-outline.badge-success {
-  --tw-text-opacity: 1;
-  color: hsl(var(--su) / var(--tw-text-opacity));
-}
-
-.badge-outline.badge-warning {
-  --tw-text-opacity: 1;
-  color: hsl(var(--wa) / var(--tw-text-opacity));
-}
-
-.badge-outline.badge-error {
-  --tw-text-opacity: 1;
-  color: hsl(var(--er) / var(--tw-text-opacity));
 }
 
 @-webkit-keyframes button-pop {
@@ -2362,10 +2325,6 @@ html {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -2406,36 +2365,6 @@ html {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
-.bg-warning {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--wa) / var(--tw-bg-opacity));
-}
-
-.bg-warning-content {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--wac) / var(--tw-bg-opacity));
-}
-
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
-.bg-accent {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--a) / var(--tw-bg-opacity));
-}
-
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--s) / var(--tw-bg-opacity));
-}
-
 .p-5 {
   padding: 1.25rem;
 }
@@ -2474,18 +2403,9 @@ html {
   color: hsl(var(--s) / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-}
-
-.bg-blend-color-burn {
-  background-blend-mode: color-burn;
 }
 
 .shadow-2xl {
@@ -2500,16 +2420,12 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow {
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.transition {
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 /* .project-svg {
