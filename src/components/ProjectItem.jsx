@@ -8,7 +8,7 @@ const ProjectItem = ({ project }) => {
         <img src={project.image} className='h-100 w-100' alt={project.name} />
       </figure>
 
-      <div className='card-body min-h-[16rem]'>
+      <div className='card-body min-h-[20rem]'>
         <div className='flex justify-between items-center'>
           <h2 className='card-title'>{project.name}</h2>
           <div>
