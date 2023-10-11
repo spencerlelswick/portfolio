@@ -19,11 +19,11 @@ const About = () => {
       <div className='card bg-base-200  w-3/5 flex flex-col items-center shadow-xl'>
         <div className='flex flex-col items-center m-10 justify-between'>
           <h2>Hi, I'm Spencer.</h2>
-          <p>I'm a full-stack developer from Louisville, Kentucky.</p>
+          <p>I'm a full stack developer from Louisville, Kentucky.</p>
           <p>
             For more information, check out my{' '}
             <a
-              href='http://localhost:3000/resources/resume.pdf'
+              href='/resources/resume.pdf'
               className='underline text-secondary'
             >
               resume
