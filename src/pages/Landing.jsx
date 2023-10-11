@@ -11,8 +11,8 @@ const Landing = () => {
         alt='avatar'
         className='rounded-3xl w-36 shadow-2xl'
       />
-      <h1 className='text-primary text-6xl text-center'>spencer elswick</h1>
-      <h1 className='text-primary text-3xl text-center'>software engineer</h1>
+      <h1 className='text-primary text-6xl text-center'>Spencer Elswick</h1>
+      <h1 className='text-primary text-3xl text-center'>Software Engineer</h1>
       <div className='mt-10'>
         <ul className='flex flex-row gap-4 text-4xl'>
           <li>
@@ -21,7 +21,7 @@ const Landing = () => {
             </a>
           </li>
           <li>
-            <a href='mailto:spencerelswick@proton.me'>
+            <a href='mailto:spencerlelswick@gmail.com'>
               <TfiEmail className='hover:text-secondary' />
             </a>
           </li>

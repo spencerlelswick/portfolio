@@ -15,8 +15,8 @@ const About = () => {
   }, []);
 
   const loaded = () => (
-    <section className='flex justify-center'>
-      <div className='card bg-base-200  w-3/5 flex flex-col items-center bg-base-100 shadow-xl'>
+    <section id='about' className='flex justify-center'>
+      <div className='card bg-base-200  w-3/5 flex flex-col items-center shadow-xl'>
         <div className='flex flex-col items-center m-10 justify-between'>
           <h2>Hi, I'm Spencer.</h2>
           <p>I'm a full-stack developer from Louisville, Kentucky.</p>
