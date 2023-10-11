@@ -21,7 +21,7 @@ const Landing = () => {
             </a>
           </li>
           <li>
-            <a href='mailto:spencerelswick@proton.me'>
+            <a href='mailto:spencerlelswick@gmail.com'>
               <TfiEmail className='hover:text-secondary' />
             </a>
           </li>

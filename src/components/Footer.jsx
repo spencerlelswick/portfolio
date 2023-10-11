@@ -11,7 +11,7 @@ const Footer = () => {
           </a>
         </li>
         <li className='hover:text-secondary'>
-          <a href='mailto:spencerelswick@proton.me'>Email</a>
+          <a href='mailto:spencerlelswick@gmail.com'>Email</a>
         </li>
       </ul>
     </footer>
