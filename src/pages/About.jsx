@@ -15,7 +15,7 @@ const About = () => {
   }, []);
 
   const loaded = () => (
-    <section className='flex justify-center'>
+    <section id='about' className='flex justify-center'>
       <div className='card bg-base-200  w-3/5 flex flex-col items-center bg-base-100 shadow-xl'>
         <div className='flex flex-col items-center m-10 justify-between'>
           <h2>Hi, I'm Spencer.</h2>
