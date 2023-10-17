@@ -20,7 +20,7 @@
     "desc": "Little Italy Pizza is a web application for a fictitious pizza shop. Users can build a custom pizza with an immersive pizza builder.",
     "live": "https://littleitaly-e2a8e59785f8.herokuapp.com/",
     "git": "https://github.com/spencerlelswick/little-italy-pizza",
-    "image": "https://raw.githubusercontent.com/spencerlelswick/little-italy-pizza/main/public/images/readme/3.gif",
+    "image": "https://github.com/spencerlelswick/little-italy-pizza/raw/main/public/images/readme/2.gif",
     "skills": [{"name": "JavaScript", "color": "#EAD92F"},
     {"name": "EJS", "color": "#E64A30"},
     {"name": "Bootstrap", "color": "#DDC7F3"},
