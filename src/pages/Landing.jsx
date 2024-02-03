@@ -12,7 +12,7 @@ const Landing = () => {
         className='rounded-3xl w-36 shadow-2xl'
       />
       <h1 className='text-primary text-6xl text-center'>Spencer Elswick</h1>
-      <h1 className='text-primary text-3xl text-center'>Full Stack Developer</h1>
+      <h1 className='text-primary text-3xl text-center'>Software Engineer</h1>
       <div className='mt-10'>
         <ul className='flex flex-row gap-4 text-4xl'>
           <li>
